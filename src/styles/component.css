@@ -12,6 +12,7 @@
     height: 48px;
     left: 0px;
     top: 221px;
+    font-family: 'Inter', sans-serif;
 
     background: #005FFC;
     border-radius: 8px;
@@ -27,6 +28,7 @@
     height: 44px;
     left: 0px;
     top: 24px;
+    font-family: 'Inter', sans-serif;
 }
 .input{
     display: flex;
@@ -39,6 +41,7 @@ width: 398px;
 height: 68px;
 left: 0px;
 top: 0px;
+font-family: 'Inter', sans-serif;
 
 }
 .linktext{
@@ -51,7 +54,7 @@ height: 21px;
 left: 0px;
 top: 84px;
 
-font-family: Inter;
+font-family: 'Inter', sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
