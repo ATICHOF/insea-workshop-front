@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import '../../styles/component.css'
 
-const Button = (props) => {
+const Button = ({textbtn}) => {
   return (
-    <div>
-        <label></label>
+    <div >
+        <button className='btn'>{textbtn}</button>
     </div>
   )
 }
