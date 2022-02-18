@@ -6,10 +6,7 @@ import Sidebar from './components/ui/Sidebar';
 function App() {
   return (
     <div className="App">
-    <Routes>
-     
-        <Route path="/" component={EmptyCard} />
-    </Routes>
+    <EmptyCard/>
     </div>
     
   );

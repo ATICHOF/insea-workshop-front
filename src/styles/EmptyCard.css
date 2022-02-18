@@ -1,0 +1,32 @@
+.empty-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+p,
+h1 {
+    font-family: Montserrat;
+    margin-right: 10px;
+    text-align: center;
+    font-style: normal;
+}
+
+p {
+    max-width: 400px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #5E636B;
+}
+
+h1 {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 80px;
+    color: #292B2E;
+}
