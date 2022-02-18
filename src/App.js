@@ -1,10 +1,10 @@
 import React from 'react';
-import Updatevid from './containers/Updatevid';
+import Sidebar from './components/ui/Sidebar';
 const App = () => {
   return (
 
     <div>
-
+     
     </div>
 
   )
