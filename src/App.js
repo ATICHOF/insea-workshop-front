@@ -1,14 +1,9 @@
-import {BrowserRouter as Routes, Route} from 'react-router-dom';
-import './App.css';
-import EmptyCard from './components/ui/EmptyCard';
-
-function App() {
+import React from 'react';
+const App = () => {
   return (
-    <div className="App">
-     
-    </div>
-    
-  );
-}
+    <div>
 
-export default App;
+    </div>
+  )
+}
+export default App
