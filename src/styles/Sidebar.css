@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,400;1,500&display=swap');
+.sidebar-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #FFFFFF;
+    height: 100vh;
+    width: 100px;
+    padding: 80px;
+}
+
+.sidebar-logo {
+    position: static;
+    width: 104px;
+    height: 17px;
+    left: 48px;
+    top: 80px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.29em;
+    color: #292B2E;
+}
+
+.sidebar-content {
+    padding: 50px 10px;
+    height: 20px;
+}
+
+.side-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    height: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.side-text a {
+    text-decoration: none;
+    color: #A4ADBA;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 2px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+.side-text a:hover {
+    color: #1a83ff;
+}
+
+.icons {
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: -33px;
+}
