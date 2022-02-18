@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-    size: 15px;
     color: #fff;
     position: static;
     width: 398px;
@@ -13,6 +12,7 @@
     left: 0px;
     top: 221px;
     font-family: 'Inter', sans-serif;
+    font-size: 15px;
     background: #005FFC;
     border-radius: 8px;
     border-color: #005FFC;
@@ -50,8 +50,6 @@
 }
 .linktext{
     /* Forgot your password? */
-
-
 position: static;
 width: 154px;
 height: 21px;
@@ -65,7 +63,7 @@ font-size: 14px;
 line-height: 150%;
 /* identical to box height, or 21px */
 text-align: left;
-align-items: flex-start;
+align-items: flex-end;
 
 color: #005FFC;
 

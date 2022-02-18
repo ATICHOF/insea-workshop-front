@@ -1,9 +1,9 @@
 import React from 'react';
-import Login from './containers/Login';
+import ForgotPass from './containers/ForgotPass';
+
 const App = () => {
   return (
 <div>
-<Login/>
 </div>
   )
 }

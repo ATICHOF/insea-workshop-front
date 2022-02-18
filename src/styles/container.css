@@ -29,3 +29,86 @@
 h1{
 font-family: 'Inter', sans-serif;;
 }
+.SignUp{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 56px 48px;
+
+    position: absolute;
+    width: 494px;
+    height: 588px;
+    left: 473px;
+    top: 48px;
+    margin: 50%;
+
+    /* Light/White */
+
+    background: #FFFFFF;
+    box-shadow: 40px 114px 200px rgba(0, 0, 0, 0.16);
+    border-radius: 20px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 6px 0px;
+}
+.RestPass{
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 56px 48px;
+
+position: absolute;
+width: 494px;
+height: 415px;
+left: 473px;
+top: 100px;
+margin: 50%;
+
+/* Light/White */
+
+background: #FFFFFF;
+box-shadow: 40px 114px 200px rgba(0, 0, 0, 0.16);
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 6px 0px;
+}
+.ForgotPass{
+        /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 24px;
+
+    position:absolute;
+    width: 494px;
+    height: 406px;
+    top: 157px;
+    left: 32%;
+
+
+    /* Light/White */
+
+    background: #FFFFFF;
+    box-shadow: 40px 54px 80px rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+}
+.p{
+    color:#666666 ;
+}

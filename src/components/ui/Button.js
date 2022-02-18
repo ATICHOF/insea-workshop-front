@@ -3,9 +3,7 @@ import '../../styles/component.css'
 
 const Button = ({textbtn}) => {
   return (
-    <div >
         <button className='btn'>{textbtn}</button>
-    </div>
   )
 }
 
