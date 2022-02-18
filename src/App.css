@@ -4,6 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@0,400;1,500&display=swap');
 body {
     background: #F8F9FB;
 }
