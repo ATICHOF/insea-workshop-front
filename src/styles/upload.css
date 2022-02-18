@@ -9,7 +9,7 @@ border-radius: 16px;
 border: #005FFC;
 }
 .close{
-    position: relative;
+position: relative;
 left: 93.81%;
 right: 3.09%;
 top: 5.68%;
@@ -85,7 +85,10 @@ color: #292B2E;
     font-family: Montserrat;
     font-style: normal;
     font-size: small;
-    
+    outline: none;
+    border: none;
+    cursor: pointer;
+        
     
     /* Inside auto layout */
     
