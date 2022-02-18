@@ -6,16 +6,17 @@
     align-items: center;
     padding: 12px 24px;
     size: 15px;
-    color: aliceblue;
+    color: #fff;
     position: static;
     width: 398px;
     height: 48px;
     left: 0px;
     top: 221px;
     font-family: 'Inter', sans-serif;
-
     background: #005FFC;
     border-radius: 8px;
+    border-color: #005FFC;
+    margin-top: 24px;
 }
 .txtinput{
     display: flex;
@@ -29,19 +30,22 @@
     left: 0px;
     top: 24px;
     font-family: 'Inter', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 16px;
 }
 .input{
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
 
-position: static;
-width: 398px;
-height: 68px;
-left: 0px;
-top: 0px;
-font-family: 'Inter', sans-serif;
+    position: static;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+    margin-top: 8px;
+    margin-bottom:16px;
+    font-family: 'Inter', sans-serif;
 
 }
 .linktext{
@@ -60,8 +64,8 @@ font-weight: 500;
 font-size: 14px;
 line-height: 150%;
 /* identical to box height, or 21px */
-
-text-align: center;
+text-align: left;
+align-items: flex-start;
 
 color: #005FFC;
 
