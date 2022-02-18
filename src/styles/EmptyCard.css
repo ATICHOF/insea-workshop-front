@@ -7,20 +7,17 @@
     margin-left: 80px;
 }
 
-p,
-h1 {
-    font-family: Montserrat;
-    margin-right: 10px;
-    text-align: center;
-    font-style: normal;
-}
-
 p {
-    max-width: 400px;
+    max-width: 500px;
+    margin-top: -10px;
     font-weight: normal;
     font-size: 16px;
     line-height: 150%;
     color: #5E636B;
+    font-family: Montserrat;
+    margin-right: 10px;
+    text-align: center;
+    font-style: normal;
 }
 
 h1 {
@@ -29,4 +26,8 @@ h1 {
     font-size: 20px;
     line-height: 80px;
     color: #292B2E;
+    font-family: monospace;
+    margin-right: 10px;
+    text-align: center;
+    font-style: normal;
 }
