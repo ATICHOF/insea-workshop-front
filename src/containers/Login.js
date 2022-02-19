@@ -61,7 +61,6 @@ const Login = () => {
 		} catch (e) {
 			console.log(e);
 			setMessage(e.message);
-			console.log(e.message);
 			setLoading(false);
 			setDisabled(false);
 		}
