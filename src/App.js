@@ -8,6 +8,7 @@ import Newvid from "./containers/newvid";
 import RestPass from "./containers/PasswordReset";
 import SignUp from "./containers/SignUp";
 import { initializeApollo } from "./apolloClient.js";
+import Updatevid from "./containers/Updatevid";
 
 const App = () => {
 	return (
@@ -21,6 +22,7 @@ const App = () => {
 					<Route exact path="/forgotpass" element={<ForgotPass />} />
 					<Route exact path="/passreset" element={<RestPass />} />
 					<Route exact path="/newvid" element={<Newvid />} />
+          <Route exact path="/updatevid" element={<Updatevid/>} />
 				</Routes>
 			</BrowserRouter>
 		</ApolloProvider>
