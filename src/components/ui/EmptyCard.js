@@ -1,4 +1,5 @@
 import '../../styles/EmptyCard.css';
+import { Sidebar } from './Sidebar';
 const EmptyCard= () => {
     return ( 
         <div className="empty-card">

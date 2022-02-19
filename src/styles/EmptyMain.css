@@ -1,0 +1,36 @@
+.main-page {}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+    background-color: #e3e6eb;
+}
+
+.empty-card {
+    padding: 0px 60px 0px 200px;
+    margin: 0px 80px 0px 80px;
+}
+
+.add-video {
+    padding: 20px 50px;
+    margin: 0px 0px 0px 150px;
+    position: static;
+    width: 180px;
+    height: 50px;
+    background: #005FFC;
+    border-radius: 10px;
+    border-style: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
