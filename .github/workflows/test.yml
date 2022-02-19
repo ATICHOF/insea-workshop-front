@@ -19,6 +19,6 @@ jobs:
       # Install dependencies
       - run: yarn
       # Run tests
-      - run: yarn run
+      - run: yarn run test
         env:
           CI: true

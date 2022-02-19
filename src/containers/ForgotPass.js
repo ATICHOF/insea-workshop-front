@@ -10,7 +10,7 @@ const ForgotPass = () => {
         <p>it's okey, we got you! What's your Email address?</p>
         <Input name="Email"/>
         <Button textbtn="Reset Password"/>
-        <p>Oh wait! I remembered ! Back to <LinkButton text="Sign in"/> </p>
+        <p>Oh wait! I remembered ! Back to <LinkButton text="Sign in" link={"Login"}/> </p>
     </div>
   )
 }
