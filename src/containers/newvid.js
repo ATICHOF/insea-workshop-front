@@ -16,7 +16,7 @@ const Newvid = () => {
             </div>
         </div>
         <div className='footer'>
-            <button className='btn'>save</button>
+            <button className='btun'>save</button>
         </div>
         <div className='video'></div>
     </div>
