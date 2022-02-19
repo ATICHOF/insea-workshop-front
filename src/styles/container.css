@@ -6,24 +6,18 @@
     padding: 56px 48px;
     text-align: left;
 
-    position: relative;
+    position: absolute;
     width: 494px;
     height: 497px;
-    left: 30%;
-    top: 100px;
+    top: 50%;
+    right: 50%;
+    margin:-280px -280px 0px 0px   ;
 
     /* Light/White */
 
     background: #FFFFFF;
     box-shadow: 40px 114px 200px rgba(0, 0, 0, 0.16);
     border-radius: 20px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 6px 0px;
 }
 h1{
 font-family: 'Inter', sans-serif;;
@@ -40,21 +34,15 @@ font-family: 'Inter', sans-serif;;
     position: absolute;
     width: 494px;
     height: 512px;
-    left: 473px;
-    top: 48px;
+    top: 50%;
+    right: 50%;
+    margin: -300px -280px 0px 0px;
 
     /* Light/White */
 
     background: #FFFFFF;
     box-shadow: 40px 114px 200px rgba(0, 0, 0, 0.16);
     border-radius: 20px;
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 6px 0px;
 }
 .RestPass{
     /* Auto layout */
@@ -68,22 +56,15 @@ padding: 56px 48px;
 position: absolute;
 width: 494px;
 height: 415px;
-left: 473px;
-top: 100px;
-margin: 50%;
+right: 50%;
+top: 50%;
+margin: -240px -280px 0px 0px;
 
 /* Light/White */
 
 background: #FFFFFF;
 box-shadow: 40px 114px 200px rgba(0, 0, 0, 0.16);
 border-radius: 20px;
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 6px 0px;
 }
 .ForgotPass{
         /* Auto layout */
@@ -97,8 +78,9 @@ margin: 6px 0px;
     position:absolute;
     width: 494px;
     height: 406px;
-    top: 157px;
-    left: 32%;
+    top: 50%;
+    right: 50%;
+    margin: -240px -280px 0px 0px;
 
 
     /* Light/White */
