@@ -23,8 +23,6 @@ const Login = () => {
 
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
-	const [loading, setLoading] = useState(false);
-	const [message, setMessage] = useState("");
 	const [dirty, setDirty] = useState(false);
 	const [disabled, setDisabled] = useState(false);
 
@@ -39,8 +37,6 @@ const Login = () => {
 		}
 
 		try {
-			setLoading(true);
-			setMessage("");
 			const {
 				data: { login: result },
 			} = await login({
@@ -56,12 +52,10 @@ const Login = () => {
 
 				navigate("/home");
 			}
-			setLoading(false);
+
 			throw result;
 		} catch (e) {
 			console.log(e);
-			setMessage(e.message);
-			setLoading(false);
 			setDisabled(false);
 		}
 	};
