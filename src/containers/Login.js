@@ -4,14 +4,68 @@ import Button from "../components/ui/Button";
 import Input from "../components/ui/input";
 import LinkButton from "../components/ui/LinkButton";
 import "../styles/container.css";
+import { useMutation, gql } from "@apollo/client";
+import { useNavigate } from "react-router-dom";
+import { setAuthToken } from "../utils/auth";
+
+export const LOGIN_MUTATION = gql`
+	mutation login($input: LoginInput!) {
+		login(input: $input) {
+			success
+			message
+			token
+		}
+	}
+`;
 
 const Login = () => {
+	let navigate = useNavigate();
+
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
 	const [loading, setLoading] = useState(false);
 	const [message, setMessage] = useState("");
 	const [dirty, setDirty] = useState(false);
 	const [disabled, setDisabled] = useState(false);
+
+	const [login] = useMutation(LOGIN_MUTATION);
+
+	const handleLogin = async (e) => {
+		e.preventDefault();
+
+		if (!dirty && !disabled) {
+			setDirty(true);
+			handleValidation();
+		}
+
+		try {
+			setLoading(true);
+			setMessage("");
+			const {
+				data: { login: result },
+			} = await login({
+				variables: {
+					input: {
+						email: email,
+						password: password,
+					},
+				},
+			});
+			if (result.success) {
+				setAuthToken(result.token);
+
+				navigate("/home");
+			}
+			setLoading(false);
+			throw result;
+		} catch (e) {
+			console.log(e);
+			setMessage(e.message);
+			console.log(e.message);
+			setLoading(false);
+			setDisabled(false);
+		}
+	};
 
 	const handleValidation = useCallback(() => {
 		// Test for Alphanumeric password
@@ -29,36 +83,20 @@ const Login = () => {
 		handleValidation();
 	}, [handleValidation]);
 
-	const handleLogin = async (e) => {
-		e.preventDefault();
-
-		if (!dirty && !disabled) {
-			setDirty(true);
-			handleValidation();
-		}
-
-		try {
-			setLoading(true);
-			setMessage("");
-			console.log("asd");
-			// Call API to log user in
-			setLoading(false);
-		} catch (e) {
-			setMessage(e.message);
-			setLoading(false);
-			setDisabled(false);
-		}
-	};
-
 	return (
 		<div className="login">
 			<h1>Welcome Back to Fastcast</h1>
 			<form onSubmit={handleLogin}>
-				<Input name="Email" value={email} onChange={setEmail} />
+				<Input
+					ttype={"email"}
+					name="Email"
+					valuee={email}
+					onchangnt={setEmail}
+				/>
 				<Input
 					name="Password"
-					value={password}
-					onChange={setPassword}
+					valuee={password}
+					onchangnt={setPassword}
 					ttype={"password"}
 				/>
 
