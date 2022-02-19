@@ -3,6 +3,9 @@
     width: 892px;
     height: 607px;
     border-radius: 8px;
+    top: 50%;
+    right: 50%;
+    margin: -300px -450px 0px 0px;
 }
 .p1{
     position: absolute;
