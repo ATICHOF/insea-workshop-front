@@ -6,10 +6,10 @@
     padding: 56px 48px;
     text-align: left;
 
-    position: absolute;
+    position: relative;
     width: 494px;
     height: 497px;
-    left: 473px;
+    left: 30%;
     top: 100px;
 
     /* Light/White */
