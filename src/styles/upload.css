@@ -1,84 +1,77 @@
-.updatevid{
+.updatevid {
     /* Frame 18 */
-position: relative;
-width: 776px;
-height: 458px;
-
-background: #FFFFFF;
-border-radius: 16px;
-border: #005FFC;
+    position: relative;
+    width: 776px;
+    height: 458px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: #005FFC;
 }
-.close{
-position: relative;
-left: 93.81%;
-right: 3.09%;
-top: 5.68%;
-bottom: 89.08%;
-outline: none;
 
+.close {
+    position: relative;
+    left: 93.81%;
+    right: 3.09%;
+    top: 5.68%;
+    bottom: 89.08%;
+    outline: none;
 }
-.Drop{
+
+.Drop {
     /* Auto layout */
-
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-padding: 16px;
-
-position: absolute;
-width: 728px;
-height: 340px;
-left: 24px;
-top: 90px;
-
-background: #F8F9FB;
-border: 1px dashed #B6BDCB;
-box-sizing: border-box;
-border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 728px;
+    height: 340px;
+    left: 24px;
+    top: 90px;
+    background: #F8F9FB;
+    border: 1px dashed #B6BDCB;
+    box-sizing: border-box;
+    border-radius: 12px;
 }
-.head{
+
+.head {
     /* Upload new video */
-position: absolute;
-width: 149px;
-height: 20px;
-left: 24px;
-top: 28px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight:bolder;
-font-size: 16px;
-line-height: 20px;
-/* identical to box height */
-color: #292B2E;
+    position: absolute;
+    width: 149px;
+    height: 20px;
+    left: 24px;
+    top: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #292B2E;
 }
-.video{/* Video */
 
-
+.video {
+    /* Video */
     position: relative;
     width: 36.67px;
-    height: 27.5px;
+    height: 28px;
     left: 3.67px;
     top: 9.17px;
-    margin-bottom: 28px;    
+    margin-bottom: 28px;
 }
-.selectbtn{/* Frame 1 */
 
-
+.selectbtn {
+    /* Frame 1 */
     /* Auto layout */
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 32px;
-    
+    padding: 12px 30px;
     position: static;
-    width: 142px;
+    width: 20%;
     height: 40px;
-    left: 293px;
-    top: 218.5px;
     color: #FFFFFF;
     background: #005FFC;
     border-radius: 8px;
@@ -88,19 +81,17 @@ color: #292B2E;
     outline: none;
     border: none;
     cursor: pointer;
-        
-    
     /* Inside auto layout */
-    
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 20px 0px;}
+    margin: 20px 0px 80px 20px;
+}
 
-    .p1{
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight:bolder;
-        font-size: 16px;
-        line-height: 20px;
-    }
+.p1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 16px;
+    line-height: 20px;
+}

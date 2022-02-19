@@ -4,10 +4,10 @@ import ForgotPass from './containers/ForgotPass'
 import Home from './containers/Home'
 import Login from './containers/Login'
 import Newvid from './containers/newvid'
-import Updatevid from './containers/Updatevid'
 import RestPass from './containers/PasswordReset'
 import SignUp from './containers/SignUp'
-
+import Modal from './containers/Modal'
+import Updatevid from './containers/Updatevid'
 const App = () => {
   return (
     <BrowserRouter>
@@ -19,7 +19,8 @@ const App = () => {
   <Route exact path='/forgotpass' element={<ForgotPass/>} />
   <Route exact path='/passreset' element={<RestPass/>}/>
   <Route exact path='/newvid' element={<Newvid/>}/>
-  <Route exact path='/updatevid' element={<Updatevid/>}/>
+  <Route exact path='/updatevideo' element={<Updatevid/>}/>
+  <Route exact path='/modal' element={<Modal/>}/>
 </Routes>
   </BrowserRouter>
   )
