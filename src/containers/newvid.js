@@ -5,7 +5,7 @@ const Newvid = () => {
   return (
     <div className='newvid'>
         <p className='p1'>New Video</p>
-        <a href='#' className='close' ><img src={require('../assets/icons/Close.png')}/></a>
+        <a href='/home' className='close' ><img src={require('../assets/icons/Close.png')}/></a>
         <div className='title'>
             <Input name={"Title (Required)"} />
             <label >Description</label><br/>
