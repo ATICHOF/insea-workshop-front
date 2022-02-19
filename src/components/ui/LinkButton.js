@@ -1,8 +1,8 @@
 import React from 'react'
 import '../../styles/component.css'
-const LinkButton = ({text}) => {
+const LinkButton = ({text,link}) => {
   return (
-    <label className='linktext'><a href='#'>{text}</a></label>
+    <label className='linktext'><a href={link}>{text}</a></label>
   )
 }
 

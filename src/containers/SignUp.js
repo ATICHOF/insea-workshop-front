@@ -10,7 +10,7 @@ const SignUp = () => {
         <Input name="Name"/>
         <Input name="Email"/>
         <Input name="Password"/>
-        <LinkButton text='Forgot Password ?'/>
+        <p><LinkButton text='Forgot Password ?' link={"/forgotpass"}/></p>
         <Button textbtn="Sign In"/>
     </div>
   )

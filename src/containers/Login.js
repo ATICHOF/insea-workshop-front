@@ -9,9 +9,9 @@ const Login = () => {
         <h1>Welcome Back to Fastcast</h1>
         <Input name="Email"/>
         <Input name="Password"/>
-        <LinkButton text='Forgot Password ?'/>
+        <p><LinkButton text='Forgot your Password ?' link={"/forgotpass"} /></p>
         <Button textbtn="Login"/>
-        <p color='#666666'>Don't have an Account?</p><LinkButton text="Sign Up"/>
+        <p color='#666666'>Don't have an Account? <LinkButton text="Sign Up" link={"signup"}/></p>
     </div>
   )
 }

@@ -17,6 +17,9 @@
     border-radius: 8px;
     border-color: #005FFC;
     margin-top: 24px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 .txtinput{
     display: flex;

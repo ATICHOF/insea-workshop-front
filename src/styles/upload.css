@@ -6,13 +6,16 @@ height: 458px;
 
 background: #FFFFFF;
 border-radius: 16px;
+border: #005FFC;
 }
 .close{
-    position: absolute;
+position: relative;
 left: 93.81%;
 right: 3.09%;
 top: 5.68%;
 bottom: 89.08%;
+outline: none;
+
 }
 .Drop{
     /* Auto layout */
@@ -50,3 +53,54 @@ line-height: 20px;
 /* identical to box height */
 color: #292B2E;
 }
+.video{/* Video */
+
+
+    position: relative;
+    width: 36.67px;
+    height: 27.5px;
+    left: 3.67px;
+    top: 9.17px;
+    margin-bottom: 28px;    
+}
+.selectbtn{/* Frame 1 */
+
+
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    
+    position: static;
+    width: 142px;
+    height: 40px;
+    left: 293px;
+    top: 218.5px;
+    color: #FFFFFF;
+    background: #005FFC;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: small;
+    outline: none;
+    border: none;
+    cursor: pointer;
+        
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 20px 0px;}
+
+    .p1{
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight:bolder;
+        font-size: 16px;
+        line-height: 20px;
+    }

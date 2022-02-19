@@ -1,0 +1,85 @@
+.delete{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 60px;
+position: relative;
+width: 556px;
+height: 223px;
+background: #FFFFFF;
+border-radius: 12px;
+}
+
+.delbtn{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 40px;
+margin-left: 6px;
+color: #FFFFFF;
+outline: none;
+border: none;
+cursor: pointer;
+
+
+position: static;
+width: 184px;
+height: 45px;
+left: 141px;
+top: 0px;
+
+/* Accent/EB5757 */
+
+background: #EB5757;
+border-radius: 8px;
+}
+.nobtn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 40px;
+    margin-left: 24px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+    position: static;
+    width: 129px;
+    height: 45px;
+    left: 0px;
+    top: 0px;
+    background: #F4F4F4;
+    border-radius: 8px;
+    }
+
+    h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font: weight 700px;
+    font-size: 24px;
+    line-height: 20px;}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    margin-top: 28px;
+
+    position: static;
+    width: 400px;
+    height: 45px;
+    left: 126px;
+    top: 118px;
+}

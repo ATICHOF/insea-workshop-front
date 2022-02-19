@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../styles/component.css'
-const Input = ({name}) => {
+const Input = ({name,ttype}) => {
   return (
     <div className='input'>
         <label>{name}</label>
