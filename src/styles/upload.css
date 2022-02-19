@@ -6,6 +6,10 @@
     background: #FFFFFF;
     border-radius: 16px;
     border: #005FFC;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: -230px -380px 0px 0px;
 }
 
 .close {
@@ -18,13 +22,12 @@
 }
 
 .Drop {
-    /* Auto layout */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 16px;
-    position: absolute;
+    position: relative;
     width: 728px;
     height: 340px;
     left: 24px;
@@ -55,43 +58,43 @@
     /* Video */
     position: relative;
     width: 36.67px;
-    height: 28px;
+    height: 27.5px;
     left: 3.67px;
     top: 9.17px;
-    margin-bottom: 28px;
 }
 
-.selectbtn {
-    /* Frame 1 */
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 30px;
-    position: static;
-    width: 20%;
-    height: 40px;
-    color: #FFFFFF;
-    background: #005FFC;
-    border-radius: 8px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: small;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    /* Inside auto layout */
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-    margin: 20px 0px 80px 20px;
-}
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 30px;
+position: static;
+width: 20%;
+height: 40px;
+color: #FFFFFF;
+background: #005FFC;
+border-radius: 8px;
+font-family: Montserrat;
+font-style: normal;
+font-size: small;
+outline: none;
+border: none;
+cursor: pointer;
 
+}
 .p1 {
+    position: static;
+    width: 312px;
+    height: 24px;
+    left: 10px;
+    top: 0px;
     font-family: Montserrat;
     font-style: normal;
-    font-weight: bolder;
+    font-weight: 600;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+    
+    text-align: center;
+    color: #292B2E;
 }
