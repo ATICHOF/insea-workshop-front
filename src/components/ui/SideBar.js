@@ -13,10 +13,10 @@ const Sidebar = () => {
                         {SidebarData.map((item, index) => {
                             return (
                                     <li key={index} className={item.cName}>
-                                        <Link to={item.path}>
+                                        <div to={item.path}>
                                             {item.icon}
                                             <span>{item.title}</span>
-                                        </Link>
+                                        </div>
                                     </li>
                                 );
                         })}
