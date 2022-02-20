@@ -3,6 +3,7 @@ import "../styles/upload.css"
 import { FileUploader } from "react-drag-drop-files";
 const Updatevid = () => {
   const fileTypes = ["JPG", "PNG", "GIF"];
+  // eslint-disable-next-line no-unused-vars
   const [file, setFile] = useState(null);
   const handleChange = (file) => { setFile(file);};
   
