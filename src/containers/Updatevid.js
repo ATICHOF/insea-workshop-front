@@ -1,6 +1,7 @@
 import React from 'react'
 import "../styles/upload.css"
 const Updatevid = () => {
+
   return (
     <div className='updatevid'>
       <a className='close' color='#FFF' href='/home'><img src={require('../assets/icons/Close.png')} alt="close"/></a>
