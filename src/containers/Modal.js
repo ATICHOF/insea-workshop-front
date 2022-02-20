@@ -10,7 +10,6 @@ const Modal = ({isOpen, close}) => {
             <div className="modal-content">
                 <Updatevid/>
             </div>
-        
     </div>
     );
 }
