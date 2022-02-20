@@ -1,24 +1,21 @@
 .updatevid {
     /* Frame 18 */
-    position: relative;
+    position: absolute;
     width: 776px;
     height: 458px;
     background: #FFFFFF;
     border-radius: 16px;
-    border: #005FFC;
-    position: absolute;
     top: 50%;
     right: 50%;
     margin: -230px -380px 0px 0px;
 }
 
-.close {
-    position: relative;
+.closet {
+    position: absolute;
     left: 93.81%;
     right: 3.09%;
     top: 5.68%;
     bottom: 89.08%;
-    outline: none;
 }
 
 .Drop {
@@ -27,67 +24,71 @@
     justify-content: center;
     align-items: center;
     padding: 16px;
-    position: relative;
+
+    position: absolute;
     width: 728px;
     height: 340px;
     left: 24px;
     top: 90px;
+
     background: #F8F9FB;
     border: 1px dashed #B6BDCB;
     box-sizing: border-box;
     border-radius: 12px;
+    }
+
+    .head {
+        position: absolute;
+        width: 149px;
+        height: 20px;
+        left: 24px;
+        top: 28px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        /* identical to box height */
+        
+        color: #292B2E;
+    }
+
+    .videoicon {
+        /* Video */
+        position:absolute;
+        width: 36.67px;
+        height: 27.5px;
+        left: 345px;
+        top: 90px;
+    }
+
+    .selectbtn {
+        /* Frame 1 */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 32px;
+        
+        position: absolute;
+        width: 142px;
+        height: 40px;
+        left: 293px;
+        top: 218.5px;
+        color: #FFFFFF;
+        background: #005FFC;
+        border-radius: 8px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: small;
+        outline: none;
+        border: none;
+        cursor: pointer;
 }
 
-.head {
-    /* Upload new video */
-    position: absolute;
-    width: 149px;
-    height: 20px;
-    left: 24px;
-    top: 28px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bolder;
-    font-size: 16px;
-    line-height: 20px;
-    /* identical to box height */
-    color: #292B2E;
-}
-
-.video {
-    /* Video */
+.Dnd {
     position: relative;
-    width: 36.67px;
-    height: 27.5px;
-    left: 3.67px;
-    top: 9.17px;
-}
-
-.selectbtn {
-    /* Frame 1 */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 32px;
-    position: static;
-    width: 142px;
-    height: 40px;
-    left: 293px;
-    top: 218.5px;
-    color: #FFFFFF;
-    background: #005FFC;
-    border-radius: 8px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-size: small;
-    outline: none;
-    border: none;
-    cursor: pointer;
-}
-
-.p1 {
-    position: static;
     width: 312px;
     height: 24px;
     left: 10px;
