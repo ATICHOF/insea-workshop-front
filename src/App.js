@@ -10,6 +10,7 @@ import SignUp from "./containers/SignUp";
 import { initializeApollo } from "./apolloClient.js";
 import Updatevid from "./containers/Updatevid";
 import Videos from "./containers/Video";
+import Dblcok from "./containers/delete";
 
 const App = () => {
 	return (
@@ -25,6 +26,7 @@ const App = () => {
 					<Route exact path="/newvid" element={<Newvid />} />
           			<Route exact path="/updatevid" element={<Updatevid/>} />
 					<Route exact path="/Video" element={<Videos/>}/>
+					<Route exact path="/delete" element={<Dblcok/>}/>
 				</Routes>
 			</BrowserRouter>
 		</ApolloProvider>
