@@ -63,14 +63,14 @@ border-radius: 8px;
     border-radius: 8px;
     }
 
-    h1{
+.delh{
     font-family: Montserrat;
     font-style: normal;
-    font: weight 700px;
-    font-size: 24px;
+    font: weight 300px;
+    font-size: 16px;
     line-height: 20px;}
 
-.btn{
+.btnd{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
