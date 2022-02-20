@@ -1,6 +1,6 @@
 import React from 'react'
 import '../styles/home.css'
-const Video = () => {
+const Videos = () => {
   return (
     <div>
       <div className='sidebar'>
@@ -16,14 +16,18 @@ const Video = () => {
         </div>
       </div>
       <div className='main'>
-        <div className='mainimage'><img src={require('../assets/images/empty.png')} alt="vide"/></div>
-        <div className='textblc'>
-          <h1>You have no video</h1>
-          <button className='adbtn'>Add video</button>
+        <div className='header'>
+          <label className='title'>Videos</label>
+          <button className='newbtn'>Add video</button>
+        </div>
+        <div className='listvid'>
+                    <ul className='video-card'>
+                        
+                    </ul>
         </div>
       </div>
     </div>
   )
 }
 
-export default Video
+export default Videos

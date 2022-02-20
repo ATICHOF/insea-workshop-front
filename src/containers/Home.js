@@ -1,6 +1,10 @@
 import React from 'react'
 import '../styles/home.css'
+import { useState } from "react";
+import Modal from './Modal';
+
 const Home = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <div>
       <div className='sidebar'>
@@ -19,7 +23,8 @@ const Home = () => {
         <div className='mainimage'><img src={require('../assets/images/empty.png')} alt="vide"/></div>
         <div className='textblc'>
           <h1>You have no video</h1>
-          <button className='adbtn'>Add video</button>
+          <button className='adbtn' onClick={() => setOpen(true)}>Add video</button>
+          <Modal isOpen={isOpen} close = {() => setOpen(false)}/>
         </div>
       </div>
     </div>
