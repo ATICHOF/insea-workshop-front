@@ -94,7 +94,6 @@
     opacity: 0.3;
 }
 h1{
-    position: static;
     width: 197px;
     height: 24px;
     left: 135px;
@@ -130,4 +129,34 @@ h1{
 
     background: #005FFC;
     border-radius: 8px;
+}
+.header{
+    flex-direction: column;
+}
+.newbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 121px;
+    height: 45px;
+    top: 72px;
+    right: 72px;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    background: #005FFC;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+}
+.listvid{
+    background-color: #292B2E;
+    
 }
