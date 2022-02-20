@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/home.css'
 const Videos = () => {
-  const listvideo={};
   return (
     <div>
       <div className='sidebar'>
