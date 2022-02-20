@@ -9,7 +9,6 @@
     position: static;
     width: 398px;
     height: 48px;
-    left: 0px;
     top: 221px;
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -17,6 +16,7 @@
     border-radius: 8px;
     border-color: #005FFC;
     margin-top: 24px;
+    margin-left: 16px;
     outline: none;
     border: none;
     cursor: pointer;
