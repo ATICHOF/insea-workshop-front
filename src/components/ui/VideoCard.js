@@ -1,10 +1,12 @@
 import "../../styles/VideoCard.css";
-import { useState } from "react";
-import DeleteModal from "../../containers/deleteModal";
 
-
-const VideoCard = () => {
-  const [isOpened, setOpened] = useState(false);
+const VideoCard = ({ onchang }) => {
+  const handleOnClick = (e) => {
+    if (onchang) {
+      onchang(e.target.value);
+    }
+    return null;
+  };
   return (
     <div className="videoItem">
       <img
@@ -18,8 +20,9 @@ const VideoCard = () => {
         </div>
         <div className="btnvid">
           <button className="btn-edit">Edit</button>
-          <button className="btn-delete" onClick={setOpened(true)}>Delete</button>
-          <DeleteModal isOpen={isOpened} close={() => setOpened(false)} />
+          <button className="btn-delete" onClick={handleOnClick}>
+            Delete
+          </button>
         </div>
       </div>
     </div>
