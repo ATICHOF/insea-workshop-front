@@ -26,7 +26,7 @@
     line-height: 180%;
 }
 
-.btn {
+.btnvid {
     flex-direction: column;
 }
 
@@ -41,14 +41,14 @@
     padding: 8px 10px;
     width: 120px;
     height: 36px;
-    background: #F5F5F5;
+    background: #e7e8eb;
     border-radius: 10px;
     border-color: transparent;
 }
 
 .btn-edit,
 .btn-delete a {
-    font-family: Inter;
+    font-family:Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
