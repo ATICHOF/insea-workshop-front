@@ -19,89 +19,96 @@ export const LOGIN_MUTATION = gql`
 `;
 
 const Login = () => {
-  let navigate = useNavigate();
 
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [dirty, setDirty] = useState(false);
-  const [disabled, setDisabled] = useState(false);
+	let navigate = useNavigate();
 
-  const [login] = useMutation(LOGIN_MUTATION);
+	const [email, setEmail] = useState("");
+	const [password, setPassword] = useState("");
+	const [dirty, setDirty] = useState(false);
+	const [disabled, setDisabled] = useState(false);
 
-  const handleLogin = async (e) => {
-    e.preventDefault();
+	const [login] = useMutation(LOGIN_MUTATION);
 
-    if (!dirty && !disabled) {
-      setDirty(true);
-      handleValidation();
-    }
+	const handleLogin = async (e) => {
+		e.preventDefault();
 
-    try {
-      const {
-        data: { login: result },
-      } = await login({
-        variables: {
-          input: {
-            email: email,
-            password: password,
-          },
-        },
-      });
-      if (result.success) {
-        setAuthToken(result.token);
+		if (!dirty && !disabled) {
+			setDirty(true);
+			handleValidation();
+		}
 
-        navigate("/home");
-      }
+		try {
+			const {
+				data: { login: result },
+			} = await login({
+				variables: {
+					input: {
+						email: email,
+						password: password,
+					},
+				},
+			});
+			if (result.success) {
+				setAuthToken(result.token);
 
-      throw result;
-    } catch (e) {
-      console.log(e);
-      setDisabled(false);
-    }
-  };
+				navigate("/home");
+			}
 
-  const handleValidation = useCallback(() => {
-    // Test for Alphanumeric password
-    const validPassword = /^(?=.*[a-zA-Z])(?=.*[0-9])/.test(password);
+			throw result;
+		} catch (e) {
+			console.log(e);
+			setDisabled(false);
+		}
+	};
 
-    // Unable to send form unless fields are valid.
-    if (dirty) {
-      setDisabled(!validate(email) || password.length < 7 || !validPassword);
-    }
-  }, [email, password, dirty]);
+	const handleValidation = useCallback(() => {
+		// Test for Alphanumeric password
+		const validPassword = /^(?=.*[a-zA-Z])(?=.*[0-9])/.test(password);
 
-  useEffect(() => {
-    handleValidation();
-  }, [handleValidation]);
+		// Unable to send form unless fields are valid.
+		if (dirty) {
+			setDisabled(
+				!validate(email) || password.length < 7 || !validPassword
+			);
+		}
+	}, [email, password, dirty]);
 
-  return (
-    <div className="login">
-      <h1>Welcome Back to Fastcast</h1>
-      <form onSubmit={handleLogin}>
-        <Input
-          ttype={"email"}
-          name="Email"
-          valuee={email}
-          onchangnt={setEmail}
-        />
-        <Input
-          name="Password"
-          valuee={password}
-          onchangnt={setPassword}
-          ttype={"password"}
-        />
+	useEffect(() => {
+		handleValidation();
+	}, [handleValidation]);
 
-        <p>
-          <LinkButton text="Forgot your Password ?" link={"/forgotpass"} />
-        </p>
+	return (
+		<div className="login">
+			<h1>Welcome Back to Fastcast</h1>
+			<form onSubmit={handleLogin}>
+				<Input
+					ttype={"email"}
+					name="Email"
+					valuee={email}
+					onchangnt={setEmail}
+				/>
+				<Input
+					name="Password"
+					valuee={password}
+					onchangnt={setPassword}
+					ttype={"password"}
+				/>
 
-        <Button textbtn="Login" ttype={"submit"} />
-        <p color="#666666">
-          Don't have an Account? <LinkButton text="Sign Up" link={"signup"} />
-        </p>
-      </form>
-    </div>
-  );
+				<p>
+					<LinkButton
+						text="Forgot your Password ?"
+						link={"/forgotpass"}
+					/>
+				</p>
+
+				<Button textbtn="Login" ttype={"submit"} />
+				<p color="#666666">
+					Don't have an Account?{" "}
+					<LinkButton text="Sign Up" link={"signup"} />
+				</p>
+			</form>
+		</div>
+	);
 };
 
 export default Login;
