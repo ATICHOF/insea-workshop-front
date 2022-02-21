@@ -1,6 +1,6 @@
 import "../../styles/VideoCard.css";
 import { useState } from "react";
-import deleteModal from "../../containers/deleteModal";
+import DeleteModal from "../../containers/deleteModal";
 
 
 const VideoCard = () => {
@@ -19,7 +19,7 @@ const VideoCard = () => {
         <div className="btnvid">
           <button className="btn-edit">Edit</button>
           <button className="btn-delete" onClick={setOpened(true)}>Delete</button>
-          
+          <DeleteModal isOpen={isOpened} close={() => setOpened(false)} />
         </div>
       </div>
     </div>
