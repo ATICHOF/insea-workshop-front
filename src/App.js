@@ -11,6 +11,7 @@ import { initializeApollo } from "./apolloClient.js";
 import Updatevid from "./containers/Updatevid";
 import Videos from "./containers/Video";
 import Dblock from "./containers/delete";
+import deleteModal from "./containers/delete";
 
 const App = () => {
 
@@ -28,6 +29,7 @@ const App = () => {
           <Route exact path="/updatevid" element={<Updatevid />} />
           <Route exact path="/Video" element={<Videos />} />
           <Route exact path="/delete" element={<Dblock />} />
+          <Route exact path="/deletemodal" element={<deleteModal/>} />
         </Routes>
       </BrowserRouter>
     </ApolloProvider>

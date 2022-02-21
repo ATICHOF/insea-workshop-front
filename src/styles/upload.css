@@ -1,5 +1,4 @@
 .updatevid {
-    /* Frame 18 */
     position: absolute;
     width: 776px;
     height: 458px;
@@ -24,67 +23,62 @@
     justify-content: center;
     align-items: center;
     padding: 16px;
-
     position: absolute;
     width: 728px;
     height: 340px;
     left: 24px;
     top: 90px;
-
     background: #F8F9FB;
     border: 1px dashed #B6BDCB;
     box-sizing: border-box;
     border-radius: 12px;
-    }
+}
 
-    .head {
-        position: absolute;
-        width: 149px;
-        height: 20px;
-        left: 24px;
-        top: 28px;
-        
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 20px;
-        /* identical to box height */
-        
-        color: #292B2E;
-    }
+.head {
+    position: absolute;
+    width: 149px;
+    height: 20px;
+    left: 24px;
+    top: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #292B2E;
+}
 
-    .videoicon {
-        /* Video */
-        position:absolute;
-        width: 36.67px;
-        height: 27.5px;
-        left: 345px;
-        top: 90px;
-    }
+.videoicon {
+    /* Video */
+    position: absolute;
+    width: 36.67px;
+    height: 27.5px;
+    left: 345px;
+    top: 90px;
+}
 
-    .selectbtn {
-        /* Frame 1 */
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        padding: 12px 32px;
-        
-        position: absolute;
-        width: 142px;
-        height: 40px;
-        left: 293px;
-        top: 218.5px;
-        color: #FFFFFF;
-        background: #005FFC;
-        border-radius: 8px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-size: small;
-        outline: none;
-        border: none;
-        cursor: pointer;
+.selectbtn {
+    /* Frame 1 */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 32px;
+    position: absolute;
+    width: 142px;
+    height: 40px;
+    left: 293px;
+    top: 218.5px;
+    color: #FFFFFF;
+    background: #005FFC;
+    border-radius: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: small;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .Dnd {
@@ -101,5 +95,4 @@
     /* identical to box height, or 24px */
     text-align: center;
     color: #292B2E;
-    
 }
