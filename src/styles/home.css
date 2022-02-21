@@ -162,21 +162,29 @@ h1{
     height: 80%;
     bottom: -8%;    
     background: #F8F9FB;
-    overflow-x: scroll;
     border-radius: 12px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .cd-vd{
-    list-style-type: none; 
-    position:relative;
+    list-style-type: none;
+    max-width:346px;
+    max-height:350px;
+    margin-bottom: 40px;
+
 }
 .videos-cd{
     display: flex;
-    align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
+    padding:0;
+    margin-left: -56px;
+    margin-top: -40px;
+
 
 }
 ::-webkit-scrollbar{
-    width: 20px;
+    width: 8px;
 }
 ::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px grey;

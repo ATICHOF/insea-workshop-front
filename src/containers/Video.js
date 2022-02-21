@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import VideoCard from "../components/ui/VideoCard";
 import "../styles/home.css";
+import Modal from "./Modal";
+
 const Videos = () => {
+  const [isOpen, setOpen] = useState(false);
   return (
     <div>
       <div className="sidebar">
@@ -35,9 +38,12 @@ const Videos = () => {
       <div className="main">
         <div className="header">
           <label className="title">Videos</label>
-          <button className="newbtn">Add video</button>
+          <button className="newbtn" onClick={() => setOpen(true)}>
+            Add video
+          </button>
         </div>
         <div className="listvid">
+          <Modal isOpen={isOpen} close={() => setOpen(false)} />
           <ul className="videos-cd">
             <li className="cd-vd">
               <>
