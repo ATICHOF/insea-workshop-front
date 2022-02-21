@@ -24,9 +24,9 @@ const App = () => {
 					<Route exact path="/forgotpass" element={<ForgotPass />} />
 					<Route exact path="/passreset" element={<RestPass />} />
 					<Route exact path="/newvid" element={<Newvid />} />
-          			<Route exact path="/updatevid" element={<Updatevid/>} />
-					<Route exact path="/Video" element={<Videos/>}/>
-					<Route exact path="/delete" element={<Dblcok/>}/>
+					<Route exact path="/updatevid" element={<Updatevid />} />
+					<Route exact path="/Video" element={<Videos />} />
+					<Route exact path="/delete" element={<Dblcok />} />
 				</Routes>
 			</BrowserRouter>
 		</ApolloProvider>
