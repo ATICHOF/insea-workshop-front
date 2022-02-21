@@ -1,5 +1,6 @@
 import Dblock  from './delete'
-const deleteModal = ({isOpen, close}) => {
+import "../styles/deleteModal.css";
+const DeleteModal = ({isOpen, close}) => {
     if (!isOpen) return null;
     return ( 
     <div className="modal">
@@ -9,4 +10,4 @@ const deleteModal = ({isOpen, close}) => {
         </div>
     </div>);
 }
-export default deleteModal;
+export default DeleteModal;
