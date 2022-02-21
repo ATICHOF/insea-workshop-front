@@ -1,66 +1,67 @@
-.newvid{
+.newvid {
     position: absolute;
     width: 892px;
     height: 607px;
+    background: #FFFFFF;
     border-radius: 8px;
     top: 50%;
     right: 50%;
     margin: -300px -450px 0px 0px;
 }
-.p1{
+
+.p1 {
     position: absolute;
     height: 20.52px;
     left: 40px;
     top: 13.68px;
-
     /* Headings/Subtitle 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
     line-height: 150%;
-
     color: #222222;
 }
-.close{
+
+.close {
     position: absolute;
     width: 24px;
     height: 20.52px;
     left: 844px;
     top: 13.68px;
-
     /* Light/525252 */
 }
-.title{
+
+.title {
     margin-top: 40px;
     position: absolute;
     width: 464px;
     height: 408.66px;
     left: 40px;
     top: 47.88px;
-    
 }
-.area{
+
+.area {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 464px;
     height: 139px;
     left: 0px;
     top: 97px;
 }
-.textarea{
+
+.textarea {
     position: relative;
     width: 420px;
     height: 111px;
     left: 0px;
     top: 28px;
 }
-.thumb{
+
+.thumb {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -71,46 +72,46 @@
     left: 0px;
     top: 260px;
 }
-.thumbtext{
+
+.thumbtext {
     position: static;
     width: 72px;
     height: 20px;
     left: 0px;
     top: 0px;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 150%;
 }
-.thumbimage{
+
+.thumbimage {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-
     position: static;
     width: 346px;
     height: 81px;
     left: 0px;
     top: 28px;
 }
-.footer{
-    position:static;
+
+.footer {
+    position: static;
     width: 892px;
     height: 73px;
     left: 0px;
     top: 534px;
-
 }
-.btun{
+
+.btun {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 24px;
-    
     position: absolute;
     width: 108px;
     height: 40px;
@@ -120,24 +121,22 @@
     border: none;
     cursor: pointer;
     color: #fff;
-    
     background: #005FFC;
-    border-radius: 8px}
-.video{
+    border-radius: 8px
+}
+
+.video {
     display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-
-position: relative;
-width: 300px;
-height: 253px;
-left: 568px;
-top: 40px;
-
-/* Light/White */
-
-background: #2b2828;
-box-shadow: 0px 8px 8px #EDEFF2;
-border-radius: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    width: 300px;
+    height: 253px;
+    left: 568px;
+    top: 40px;
+    /* Light/White */
+    background: #2b2828;
+    box-shadow: 0px 8px 8px #EDEFF2;
+    border-radius: 8px;
 }
