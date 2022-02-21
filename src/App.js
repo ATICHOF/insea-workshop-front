@@ -10,27 +10,28 @@ import SignUp from "./containers/SignUp";
 import { initializeApollo } from "./apolloClient.js";
 import Updatevid from "./containers/Updatevid";
 import Videos from "./containers/Video";
-import Dblcok from "./containers/delete";
+import Dblock from "./containers/delete";
 
 const App = () => {
-	return (
-		<ApolloProvider client={initializeApollo()}>
-			<BrowserRouter>
-				<Routes>
-					<Route path="/" element={<Login />} />
-					<Route exact path="/login" element={<Login />} />
-					<Route exact path="/home" element={<Home />} />
-					<Route exact path="/Signup" element={<SignUp />} />
-					<Route exact path="/forgotpass" element={<ForgotPass />} />
-					<Route exact path="/passreset" element={<RestPass />} />
-					<Route exact path="/newvid" element={<Newvid />} />
-					<Route exact path="/updatevid" element={<Updatevid />} />
-					<Route exact path="/Video" element={<Videos />} />
-					<Route exact path="/delete" element={<Dblcok />} />
-				</Routes>
-			</BrowserRouter>
-		</ApolloProvider>
-	);
+
+  return (
+    <ApolloProvider client={initializeApollo()}>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/home" element={<Home />} />
+          <Route exact path="/Signup" element={<SignUp />} />
+          <Route exact path="/forgotpass" element={<ForgotPass />} />
+          <Route exact path="/passreset" element={<RestPass />} />
+          <Route exact path="/newvid" element={<Newvid />} />
+          <Route exact path="/updatevid" element={<Updatevid />} />
+          <Route exact path="/Video" element={<Videos />} />
+          <Route exact path="/delete" element={<Dblock />} />
+        </Routes>
+      </BrowserRouter>
+    </ApolloProvider>
+  );
 };
 
 export default App;

@@ -9,16 +9,17 @@ import { useNavigate } from "react-router-dom";
 import { setAuthToken } from "../utils/auth";
 
 export const LOGIN_MUTATION = gql`
-	mutation login($input: LoginInput!) {
-		login(input: $input) {
-			success
-			message
-			token
-		}
-	}
+  mutation login($input: LoginInput!) {
+    login(input: $input) {
+      success
+      message
+      token
+    }
+  }
 `;
 
 const Login = () => {
+
 	let navigate = useNavigate();
 
 	const [email, setEmail] = useState("");

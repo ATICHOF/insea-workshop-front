@@ -157,6 +157,40 @@ h1{
     text-align: center;
 }
 .listvid{
-    background-color: #292B2E;
-    
+    position: relative;
+    width: 88%;
+    height: 80%;
+    bottom: -8%;    
+    background: #F8F9FB;
+    border-radius: 12px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
+.cd-vd{
+    list-style-type: none;
+    max-width:346px;
+    max-height:350px;
+    margin-bottom: 40px;
+
+}
+.videos-cd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:0;
+    margin-left: -56px;
+    margin-top: -40px;
+
+
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #0061fc48;
+    border-radius: 10px;
+  }
