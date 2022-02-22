@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+<div id="top"></div>
+<!--
+*** Credit https://github.com/othneildrew/Best-README-Template by Aarav-USA
+-->
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="#">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">FastCast : Reactjs Application</h3>
 
-## Available Scripts
+  <p align="center">
+    The frontend of our application 
+    <br />
+    <a href="https://github.com/ATICHOF/insea-workshop-front"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/ATICHOF/insea-workshop-front">View Code</a>
+    <a href="https://github.com/ATICHOF/insea-workshop-front/issues">Report Bug</a>
+    <a href="https://github.com/ATICHOF/insea-workshop-front/issues">Request Feature</a>
+  </p>
+</div>
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
 
-### `yarn start`
+## About The Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is the frontend component of our app, it's built to handle interfaces to register and authenticate users, and handle videos uploading.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Here's why:
 
-### `yarn test`
+- It's cool
+- Why not?
+- Expand our technical skills.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `yarn build`
+### Built With
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/)
+- [AppoloClient](https://www.apollographql.com/docs/react/)
+- [React.js](https://reactjs.org/)
+- [Mux hopefully?](https://mux.com/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### `yarn eject`
+<!-- LINKS -->
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Important Links
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You can check demo of the app using the links
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Vercel Deployment](https://insea-workshop-front-ten.vercel.app/)
+- [Heroku Deployment](https://innovation-api-app.herokuapp.com)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+This is an example of how to list things you need to use the software and how to install them.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Installation
 
-### Code Splitting
+_Install instructions._
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Clone the repo
+   ```sh
+   git clone https://github.com/ATICHOF/insea-workshop-front.git
+   ```
+3. Install NPM packages
+   ```sh
+   npm install
+   ```
+   or 
+   ``` yarn ```
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<!-- USAGE EXAMPLES -->
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-### Advanced Configuration
+_For more examples, please refer to the [Documentation](https://example.com)_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-### Deployment
+<!-- ROADMAP -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Roadmap
+- [x] Creating React Application.
+- [x] Setup CI workflow.
+- [x] Setup CD workflow via Heroku.
+- [x] Adding necessary Components.
+- [x] Adding necessary Containers.
+- [x] Login page Management and Connexion with backend API.
+- [x] Sign Up Page connexion with backend API.
+- [ ] Form handling with Formik
+- [x] Creating Home page.
+- [x] Videos page
+- [x] Modals Handling
+- [x] Drag and Drop file fonctionality
+- [ ] uploading video to mux
 
-### `yarn build` fails to minify
+See the [open issues](https://github.com/ATICHOF/insea-workshop-front/issues) for a full list of proposed features (and known issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+LAACHIR Ayoub - laachir98ayoub@gmail.com
+
+LAMHAMDI ALAOUI Oussama - olamhamdialaoui@gmail.com
+
+CHIGR NIIMA - niimachigr@gmail.com
+
+ATICHE SOUFYANE - sof.atiche@gmail.com
+
+<p align="right">(<a href="#top">back to top</a>)</p>
